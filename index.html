@@ -1,0 +1,114 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=ISO-8859-1">
+<META HTTP-EQUIV="Refresh" CONTENT="300">
+<TITLE>EAP-Project - Node Monitoring Dashboard</TITLE>
+</HEAD>
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000" LINK="#0000FF" VLINK="#800080">
+
+<TABLE WIDTH="100%" BORDER="0" CELLPADDING="0" CELLSPACING="0">
+<TR>
+<TD BGCOLOR="#333333" WIDTH="100%">
+<FONT COLOR="#FFFFFF" SIZE="5" FACE="Arial, Helvetica, sans-serif">
+<B>&nbsp;&#9881; EAP-Project - Edge Autonomous Platform</B>
+</FONT>
+</TD>
+</TR>
+<TR>
+<TD BGCOLOR="#CCCCCC">
+<FONT SIZE="2" FACE="Arial, Helvetica, sans-serif">
+<B>&nbsp;Node Monitoring Dashboard</B>
+</FONT>
+</TD>
+</TR>
+</TABLE>
+
+<BR>
+
+<TABLE WIDTH="90%" BORDER="1" CELLPADDING="5" CELLSPACING="0" ALIGN="CENTER" BGCOLOR="#EEEEEE">
+<TR>
+<TD BGCOLOR="#999999" COLSPAN="2">
+<FONT COLOR="#FFFFFF" SIZE="3" FACE="Arial, Helvetica, sans-serif"><B>&#9968; KGSN-1 Status</B></FONT>
+</TD>
+</TR>
+<TR BGCOLOR="#FFFFFF">
+<TD WIDTH="30%" BGCOLOR="#F0F0F0">
+<FONT FACE="Arial, Helvetica, sans-serif"><B>&#128514; Battery</B></FONT>
+</TD>
+<TD>
+<IMG SRC="https://kgsn1.hobihaus.com/api/v1/badge.svg?chart=powersupply_capacity.smb1360-battery&alarm=linux_power_supply_capacity&refresh=auto" HEIGHT="20" ALT="Battery Status">
+</TD>
+</TR>
+<TR BGCOLOR="#FFFFFF">
+<TD BGCOLOR="#F0F0F0">
+<FONT FACE="Arial, Helvetica, sans-serif"><B>&#129504; CPU</B></FONT>
+</TD>
+<TD>
+<IMG SRC="https://kgsn1.hobihaus.com/api/v1/badge.svg?chart=system.cpu&alarm=10min_cpu_usage&refresh=auto" HEIGHT="20" ALT="CPU Usage">
+</TD>
+</TR>
+<TR BGCOLOR="#FFFFFF">
+<TD BGCOLOR="#F0F0F0">
+<FONT FACE="Arial, Helvetica, sans-serif"><B>&#128190; RAM</B></FONT>
+</TD>
+<TD>
+<IMG SRC="https://kgsn1.hobihaus.com/api/v1/badge.svg?chart=system.ram&alarm=ram_in_use&refresh=auto" HEIGHT="20" ALT="RAM Usage">
+</TD>
+</TR>
+<TR BGCOLOR="#FFFFFF">
+<TD BGCOLOR="#F0F0F0">
+<FONT FACE="Arial, Helvetica, sans-serif"><B>&#127759; WLAN</B></FONT>
+</TD>
+<TD>
+<IMG SRC="https://kgsn1.hobihaus.com/api/v1/badge.svg?chart=net_packets.wlan0&alarm=1m_received_packets_rate&refresh=auto" HEIGHT="20" ALT="WLAN Status">
+</TD>
+</TR>
+<TR BGCOLOR="#FFFFFF">
+<TD BGCOLOR="#F0F0F0">
+<FONT FACE="Arial, Helvetica, sans-serif"><B>&#128649; I/O Wait</B></FONT>
+</TD>
+<TD>
+<IMG SRC="https://kgsn1.hobihaus.com/api/v1/badge.svg?chart=system.cpu&alarm=10min_cpu_iowait&refresh=auto" HEIGHT="20" ALT="I/O Wait">
+</TD>
+</TR>
+<TR BGCOLOR="#FFFFFF">
+<TD BGCOLOR="#F0F0F0">
+<FONT FACE="Arial, Helvetica, sans-serif"><B>&#128190; Packet Storm</B></FONT>
+</TD>
+<TD>
+<IMG SRC="https://kgsn1.hobihaus.com/api/v1/badge.svg?chart=net_packets.wlan0&alarm=10s_received_packets_storm&refresh=auto" HEIGHT="20" ALT="Packet Storm">
+</TD>
+</TR>
+</TABLE>
+
+<BR>
+
+<TABLE WIDTH="90%" BORDER="1" CELLPADDING="5" CELLSPACING="0" ALIGN="CENTER" BGCOLOR="#EEEEEE">
+<TR>
+<TD BGCOLOR="#999999" COLSPAN="2">
+<FONT COLOR="#FFFFFF" SIZE="3" FACE="Arial, Helvetica, sans-serif"><B>&#9968; NGDR-1 Status</B></FONT>
+</TD>
+</TR>
+<TR BGCOLOR="#FFFFFF">
+<TD COLSPAN="2">
+<FONT FACE="Arial, Helvetica, sans-serif"><I>Coming Soon...</I></FONT>
+</TD>
+</TR>
+</TABLE>
+
+<BR><BR>
+
+<TABLE WIDTH="90%" BORDER="0" CELLPADDING="5" CELLSPACING="0" ALIGN="CENTER">
+<TR>
+<TD BGCOLOR="#CCCCCC">
+<FONT SIZE="1" FACE="Arial, Helvetica, sans-serif">
+Last Updated: <SCRIPT>document.write(new Date().toLocaleString())</SCRIPT><BR>
+Auto-refresh enabled (300 seconds)
+</FONT>
+</TD>
+</TR>
+</TABLE>
+
+</BODY>
+  </HTML>
