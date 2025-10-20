@@ -1,5 +1,5 @@
 # ⚙️ EAP-Project
-**Edge Autonomous Platform – Node Monitoring Dashboard**
+Edge Autonomous Platform – Node Monitoring Dashboard
 
 ---
 
