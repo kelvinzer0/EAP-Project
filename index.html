@@ -109,6 +109,20 @@ Auto-refresh enabled (300 seconds)
 </TD>
 </TR>
 </TABLE>
+<script>
+  function addTimestampToBadges() {
+    const badges = document.querySelectorAll("img[src*='badge.svg']");
+    badges.forEach(img => {
+      const base = img.src.split('?')[0];
+      const params = img.src.split('?')[1] || '';
+      const sep = params ? '&' : '?';
+      img.src = `${base}?${params}${sep}t=${Date.now()}`;
+    });
+  }
 
+  // Jalankan saat load & setiap 5 menit
+  addTimestampToBadges();
+  setInterval(addTimestampToBadges, 300000);
+</script>
 </BODY>
   </HTML>
